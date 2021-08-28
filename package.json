@@ -1,0 +1,33 @@
+{
+  "name": "products-ms",
+  "version": "1.0.0",
+  "description": "",
+  "type":"module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateuslnascimento/products-ms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateuslnascimento/products-ms/issues"
+  },
+  "homepage": "https://github.com/mateuslnascimento/products-ms#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonschema": "^1.4.0",
+    "mongo": "^0.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "husky": "^7.0.2",
+    "jest": "^27.1.0",
+    "nodemon": "^2.0.12"
+  }
+}
