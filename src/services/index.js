@@ -6,5 +6,4 @@ export default (dependencies) => ({
   putProducts: productsService(dependencies).putProducts,
   patchProducts: productsService(dependencies).patchProducts,
   deleteProducts: productsService(dependencies).deleteProducts,
-
 });
