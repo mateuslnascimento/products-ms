@@ -1,9 +1,9 @@
-export default (express, controllers) => {
+export default (router, controllers) => {
   const { getProducts, postProducts } = controllers;
-
-  const router = express.Router();
 
   router.get('/', getProducts);
 
   router.post('/', postProducts);
+
+  return router;
 };

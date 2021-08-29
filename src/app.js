@@ -4,7 +4,7 @@ import controllers from './controllers/index.js';
 
 const app = express();
 
-const routes = routers(express, controllers);
+const routes = routers(express.Router(), controllers);
 
 app.use('/products', routes);
 
